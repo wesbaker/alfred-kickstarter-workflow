@@ -3,7 +3,7 @@
 Search Kickstarter from the comfort of Alfred and get a quick status of the
 projects.
 
-![Workflow in action](example.png)
+![Workflow in action](media/example.png)
 
 ## Install
 
