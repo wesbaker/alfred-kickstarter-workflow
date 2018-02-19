@@ -1,0 +1,24 @@
+{
+  "name": "alfred-kickstarter-workflow",
+  "version": "2.0.0",
+  "description": "Alfred Workflow for searching Kickstarter",
+  "main": "index.js",
+  "scripts": {
+		"postinstall": "alfy-init",
+		"preuninstall": "alfy-cleanup"
+	},
+  "author": {
+    "name": "Wes Baker",
+    "email": "wes@wesbaker.com",
+    "url": "wesbaker.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
