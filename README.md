@@ -8,7 +8,7 @@ projects.
 ## Install
 
 ```
-$ npm install --global alfred-kickstarter
+$ npm install --global alfred-kickstarter-workflow
 ```
 
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
