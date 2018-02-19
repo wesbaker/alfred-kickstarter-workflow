@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "Alfred Workflow for searching Kickstarter",
   "main": "index.js",
+  "repository": "https://github.com/wesbaker/alfred-kickstarter-workflow",
   "scripts": {
 		"postinstall": "alfy-init",
 		"preuninstall": "alfy-cleanup"
