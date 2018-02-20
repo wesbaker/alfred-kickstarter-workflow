@@ -13,12 +13,16 @@ alfy
         urls,
         pledged,
         goal,
-        currency_symbol,
+        currency,
         state,
         creator
       } = project;
       const funding = goal ? `${Math.round(pledged / goal * 100)}%` : "0%";
-      const raised = `${currency_symbol}${pledged}`;
+      const raised = new Intl.NumberFormat("en-US", {
+        style: "currency",
+        currency,
+        minimumFractionDigits: 0
+      }).format(pledged);
       return {
         title: name,
         subtitle: `${state} | by ${creator.name} | ${funding} | ${raised}`,
