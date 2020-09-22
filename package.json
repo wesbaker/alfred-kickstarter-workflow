@@ -1,6 +1,6 @@
 {
   "name": "alfred-kickstarter-workflow",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Alfred Workflow for searching Kickstarter",
   "main": "index.js",
   "repository": "https://github.com/wesbaker/alfred-kickstarter-workflow",
